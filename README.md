@@ -104,3 +104,51 @@ While the dataset is suitable for exploratory analysis, it has several important
 * Lack of Demographics: No demographic information (e.g., age, gender, geographic location) is available, preventing segmentation analysis.
 * Temporal Relevance: The data was collected in 2016 and may not fully reflect current smart device usage behaviors.
 * Third-Party Source: The data was not collected directly by Bellabeat, which may introduce differences between Fitbit users and Bellabeat customers.
+
+# **3. Data Sources and Limitations**
+
+**Data Sources**
+
+The primary dataset used for this case study is the FitBit Fitness Tracker Data, made publicly available on Kaggle by Mobius under a CC0: Public Domain license. This dataset contains anonymized personal fitness tracker data collected from 30 Fitbit users over a 31-day period. Participants consented to the submission of their data, which includes daily records of physical activity, step counts, calories burned, and sleep metrics.
+
+The dataset is organized across multiple CSV files, each representing different aspects of smart device usage. For this analysis, the focus is placed on daily-level data, as it is most appropriate for identifying high-level behavioral trends relevant to marketing strategy.
+
+The primary files used include:
+
+* dailyActivity_merged.csv — Provides daily summaries of steps, activity intensity, and calories burned.
+* sleepDay_merged.csv — Contains daily sleep duration and time-in-bed metrics.
+
+**Data Location and Accessibility**
+
+The dataset is hosted directly on Kaggle and accessed through a Kaggle Notebook environment. All data files are stored in a read-only directory provided by Kaggle, ensuring version control, reproducibility, and consistent access throughout the analysis. No local storage or manual file handling was required.
+
+**Licensing, Privacy, and Security Considerations**
+
+The FitBit Fitness Tracker Data is released under a CC0 public domain license, allowing unrestricted use for analysis and presentation. All records are anonymized, and no personally identifiable information is included. As a result, the dataset presents no known privacy, security, or ethical risks and is appropriate for educational and portfolio use.
+
+**Data Credibility and Limitations**
+
+While the dataset is suitable for exploratory analysis, it has several important limitations that must be acknowledged:
+
+* Sample Size: The dataset includes data from only 30 users, which limits statistical generalizability.
+* Lack of Demographics: No demographic information (e.g., age, gender, geographic location) is available, preventing segmentation analysis.
+* Temporal Relevance: The data was collected in 2016 and may not fully reflect current smart device usage behaviors.
+* Third-Party Source: The data was not collected directly by Bellabeat, which may introduce differences between Fitbit users and Bellabeat customers.
+
+# **4. Setting Up the Environment**
+
+**Tools and Technologies**
+* **Programming Language:** Python
+* **Environment:** Kaggle Notebooks
+* **Primary Libraries:**
+    * pandas — data manipulation and cleaning
+    * numpy — numerical operations
+    * matplotlib and seaborn — data visualization
+
+**Dataset Access**
+
+The Fitbit Fitness Tracker dataset was added directly to the Kaggle notebook using Kaggle’s built-in data integration feature. Once added, the dataset was accessed through Kaggle’s read-only file directory, enabling consistent and secure data loading throughout the analysis.
+
+**Imported Packages**
+
+The following code was used to confirm that the required libraries were available and that the dataset could be successfully loaded:
