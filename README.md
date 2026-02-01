@@ -49,3 +49,28 @@ The marketing analytics team is responsible for collecting, processing, and inte
     Spring is a smart water bottle that monitors daily water intake. Connected to the Bellabeat App, it helps users maintain proper hydration levels throughout the day.
 5. **Bellabeat Membership**
     Bellabeat offers a subscription-based membership program that delivers 24/7 personalized guidance across nutrition, activity, sleep, health and beauty, and mindfulness. Recommendations are tailored to each user’s lifestyle and goals, enhancing overall engagement with the Bellabeat ecosystem.
+
+# **2. Business Task and Key Questions**
+
+**Business Task**
+
+Bellabeat seeks to better understand how consumers use smart wellness devices in their daily lives in order to refine its marketing strategy and support future growth. While Bellabeat products are designed specifically for women, insights from broader smart device usage patterns can help identify behaviors related to physical activity, sleep, and lifestyle habits that are relevant to Bellabeat’s target audience.
+
+**Key Business Questions**
+1. What are some trends in smart device usage?
+2. How could these trends apply to Bellabeat customers?
+3. How could these trends help influence Bellabeat marketing strategy?
+
+**Key Stakeholders**
+* **Urška Sršen – Co-founder & Chief Creative Officer**
+Urška Sršen leverages her background in art and design to create technology that is both visually appealing and functional. She is a central figure in shaping Bellabeat’s vision and brand identity and is a strong advocate for using data analytics to inform business and marketing decisions.
+* **Sando Mur – Co-founder & Executive Team Member**
+Sando Mur, a mathematician by training, is instrumental in Bellabeat’s data-driven approach. He provides strategic oversight and ensures that analytics initiatives align with business objectives, helping the company make informed, evidence-based decisions.
+* **Bellabeat Marketing Analytics Team**
+The marketing analytics team is responsible for collecting, processing, and interpreting data to guide Bellabeat’s marketing strategy. As a junior data analyst, you contribute by analyzing smart device data, uncovering trends, and translating these insights into actionable recommendations for the company.
+
+**How This Analysis Supports Business Decisions**
+* Align marketing messages with real-world user behavior rather than idealized fitness goals.
+* Focus on habit formation, wellness consistency, and holistic health in product positioning.
+* Identify opportunities to better communicate the value of Bellabeat’s ecosystem of wearable devices and digital services.
+* Support data-informed decision-making for future marketing campaigns and product development initiatives
