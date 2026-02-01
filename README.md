@@ -152,3 +152,24 @@ The Fitbit Fitness Tracker dataset was added directly to the Kaggle notebook usi
 **Imported Packages**
 
 The following code was used to confirm that the required libraries were available and that the dataset could be successfully loaded:
+
+# Import necessary libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
+
+# Dataset paths
+activity_path = '/kaggle/input/fitbit/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv'
+sleep_path = '/kaggle/input/fitbit/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/sleepDay_merged.csv'
+
+# Load datasets
+activity = pd.read_csv(activity_path)
+sleep = pd.read_csv(sleep_path)
+
+# Quick preview to verify loading
+print("Activity Data:")
+print(activity.head(), "\n")
+print("Sleep Data:")
+print(sleep.head())
